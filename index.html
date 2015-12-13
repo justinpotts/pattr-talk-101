@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Pattr 101</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<div style="font-family:Aller; font-size:92px;"><span style="color:lime">&middot;</span>pattr</div>
+					<p>Truly private instant messaging.</p>
+				</section>
+
+				<section>
+					<h2>Follow along</h2>
+					<img src="img/follow-along.jpg">
+					<p>https://justinpotts.github.com/pattr-101/index.html<p>
+				</section>
+
+				<section>
+					<h2>Who are we?</h2>
+					<p>
+						Co-founders Alez Meza (CEO) and Justin Potts (CTO)
+					</p>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+						<h2>Our mission</h2>
+						<p>Mission text here.</p>
+				</section>
+
+				<section>
+					<h2>What's our tech stack?</h2>
+					<p>
+						Put icons of things we use here (Flask, Socket.io, and PureCSS)
+					</p>
+				</section>
+
+				<section>
+					<h2><i>Demo</i></h2>
+				</section>
+
+				<section>
+					<h2>Features</h2>
+					<p class="fragment">
+						Custom chat rooms
+					</p>
+					<p class="fragment">
+						Custom nicknames
+					</p>
+					<p class="fragment">
+						Whispering
+					</p>
+					<p class="fragment">
+						Dedicated help and about modules
+					</p>
+				</section>
+
+				<section>
+					<h2>Coming soon</h2>
+					<p class="fragment">
+						Encryption
+					</p>
+					<p class="fragment">
+						Password protection
+					</p>
+					<p class="fragment">
+						Special characters
+					</p>
+					<p class="fragment">
+						Mentions
+					</p>
+					<p class="fragment">
+						Inline image and GIF support
+					</p>
+				</section>
+
+				<section>
+					<h2>It's code time!</h2>
+					<pre><code class="python" data-trim>
+						print 'Hello world!'
+					</code></pre>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="https://pattr.me">Visit Pattr</a> <br>
+						- <a href="https://github.com/justinpotts/pattr">View Pattr source code or contribute</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
