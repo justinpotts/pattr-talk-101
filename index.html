@@ -37,8 +37,6 @@
 	<body>
 
 		<div class="reveal">
-
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
 					<img class="plain" src="img/pattr-logo.png">
@@ -54,10 +52,9 @@
 				<section>
 					<h2>Who are we?</h2>
 						<p><img src="img/alex.jpg" width=144px height=144px> <img src="img/justin.jpg" width=144px height=144px></p>
-						<p>Co-founders Alez Meza (CEO) and Justin Potts (CTO)</p>
+						<p>Co-founders Alex Meza (CEO) and Justin Potts (CTO)</p>
 				</section>
 
-				<!-- Example of nested vertical slides -->
 				<section>
 						<h2>Our mission</h2>
 						<blockquote>
@@ -77,10 +74,6 @@
 				</section>
 
 				<section>
-					<h2><i>Demo</i></h2>
-				</section>
-
-				<section>
 					<h2>Features</h2>
 					<p class="fragment">
 						Custom chat rooms
@@ -94,6 +87,10 @@
 					<p class="fragment">
 						Dedicated help and about modules
 					</p>
+				</section>
+
+				<section>
+					<h2><i>Demo</i></h2>
 				</section>
 
 				<section>
@@ -120,7 +117,7 @@
 				</section>
 
 				<section>
-					<h2>Lists</h2>
+					<h2>Hashmaps</h2>
 					<pre><code class="python" data-trim>
 session['uid'] = generate_id()
 session['nick'] = generate_nick()
@@ -129,7 +126,7 @@ session['room'] = roomcode
 				</section>
 
 				<section>
-					<h2>Hashmaps</h2>
+					<h2>Lists</h2>
 					<pre><code class="python" data-trim>
 connected_users = {}
 connected_users[session['room']] = {session['uid']: session['nick']}
